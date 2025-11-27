@@ -1,0 +1,140 @@
+
+
+::before
+::after {
+    margin: 0;/* Removes default margin from all elements */
+    padding: 0; /* removes default padding from all elements */
+    box-sizing: border-box; /* Ensures width includes padding and border */
+}
+
+/* Brand Tokens Later */
+
+/* ---------------------------------------- HTML BASE STYLES -----------------------*/
+html {
+    background-color: white; /* html includes the whole view port */
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+
+/* ---------------------------------------- BODY -----------------------*/
+
+body {
+    background-color: white; /* keeps body background white */
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 32px; /* top right bottom left using commas*/
+    gap: 32px; /*header container and seperator?*/
+
+
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+
+}
+
+.separator {
+    border-top: 2px solid #7b458f; /* pick top or bottom needs tokens later*/
+
+}
+
+.brand-logo {
+    width: 128px;
+    height: auto;
+}
+
+
+.brand-wordmark {
+    width: 304px;
+    height: auto;
+}
+
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 16px;
+
+
+}
+
+
+.nav-pills a { /* all the links under nav pills. refrencing a*/
+    display:inline-block;
+    padding-top: 10px;
+    padding-right: 22px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+    border-radius: 32px;
+    border: 2px solid #7b458f;
+    font-weight: 600;
+    color: #7b458f;
+    background-color: white;
+    text-decoration: none;
+
+
+}
+
+.nav-pills a:link, a:visited {
+    display:inline-block;
+    padding-top: 10px;
+    padding-right: 22px;
+    padding-bottom: 14px;
+    padding-left: 22px;
+    border-radius: 32px;
+    border: 2px solid #7b458f;
+    font-weight: 600;
+    color: #7b458f;
+    background-color: white;
+    text-decoration: none;
+
+
+}
+
+.nav-pills a:visited {
+
+}
+
+.nav-pills a:hover, a:focus {
+    background-color: #420e53;
+    color:white;
+    border: 2px solid #7b458f;
+    
+
+}
+
+
+.nav-pills a:active {
+    background-color: #420e53;
+    color:white;
+    border: 2px solid #7b458f;
+    text-decoration: underline;
+
+}
+
+.nav-pills a.active {
+    background-color: #420e53;
+    color:white;
+    border: 2px solid #7b458f;
+    text-decoration: underline;
+}
