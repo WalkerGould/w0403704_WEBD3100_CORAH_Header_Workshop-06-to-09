@@ -1,5 +1,3 @@
-# webd3100-ws06-to-ws09
-webd3100-ws06-to-ws09
 Mini knowledge check (3 quick questions):
 
 
@@ -62,4 +60,4 @@ items are grouped together.
 
 Is hierarchy clear: brand first, then nav?
  
-Yes. Branding is clearly visible from the first look of it
+Yes. Branding is clearly visible from the first look of it.
